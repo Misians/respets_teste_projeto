@@ -1,0 +1,38 @@
+$base-color:  #BBE1D2;
+
+* {
+  margin:0; 
+  box-sizing:border-box;
+  padding: 0;
+}
+.conect{
+  font-family: Poppins;
+
+}
+.button {
+  outline: 0;
+  border: 0;
+  
+  .Face{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #BBE1D2;
+    color: white;
+    outline: 0;
+    border: 0;  
+    border-radius: 3px;
+    
+    &:hover{
+      outline: 1px solid #000;
+    }
+  }
+  
+
+  .Google{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #BBE1D2;
+    color: white;
+    outline: 0;
+    border: 0;  
+    border-radius: 3px;
+  }
+}
